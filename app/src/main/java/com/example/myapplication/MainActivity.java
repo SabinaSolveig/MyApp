@@ -29,7 +29,7 @@ public class MainActivity extends AppCompatActivity {
                     arg1 = Integer.valueOf(editText1.getText().toString());
                     arg2 = Integer.valueOf(editText2.getText().toString());
                     if (arg1.equals(arg2)) {
-                        textView.setText("Равно!");
+                        textView.setText("Равно!!!");
                     } else {
                         textView.setText("Не равно!");
                     }
